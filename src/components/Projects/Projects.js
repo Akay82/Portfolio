@@ -59,7 +59,7 @@ function Projects() {
               title="Text-Editor-App"
               description=" This is a Simple Text Editor Which is made with the help of React, In this application we can write the content and we can bold the text, we can change the color of text, alignment and list items."
               ghLink="https://github.com/Akay82/Simple-Text-Editor"
-              demoLink="https://ajay-text-editor.netlify.app/"              
+              demoLink="https://text-editor2.netlify.app/"              
             />
           </Col>
 
