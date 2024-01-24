@@ -48,7 +48,7 @@ function Projects() {
               title="Weather App"
               description="In this web application you have to enter your city and it will give you the weather details of that city i used rest API in this Application and in this projects i used HTML5, Css and JavaScript. It gives the Real Time data which is visible at our display . It is Easy and simple to use."
               ghLink="https://github.com/Akay82/weather"
-              demoLink="https://weather-hzws.onrender.com/"              
+              demoLink="https://ajayk-weather.netlify.app/"              
             />
           </Col>
 
