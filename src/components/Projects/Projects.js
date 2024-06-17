@@ -6,6 +6,7 @@ import weather from "../../Assets/Projects/weather.png";
 import drawing from "../../Assets/Projects/drawing.png";
 import text from "../../Assets/Projects/Text.png"
 import login from "../../Assets/Projects/login.png"
+import cloude5 from "../../Assets/Projects/cloude5.png"
 import shop from "../../Assets/Projects/shop.png";
 import todo from "../../Assets/Projects/todo.png";
 
