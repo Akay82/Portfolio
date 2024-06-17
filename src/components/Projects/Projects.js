@@ -21,6 +21,20 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+
+               <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={cloude5}
+              isBlog={false}
+              title="CloudE5"
+              description="In this drawing app, users can draw different shapes like rectangles, circles, and triangles in their preferred colors. They can also erase or download their drawing as an image. All these functionalities are done with HTML 5 canvas & vanilla JavaScript, no external framework or library is used."
+              ghLink="#"
+              demoLink="https://cloude5.in/"
+            />
+          </Col>
+            
+            
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={drawing}
