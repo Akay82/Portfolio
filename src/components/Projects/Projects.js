@@ -29,7 +29,7 @@ function Projects() {
               imgPath={cloude5}
               isBlog={false}
               title="CloudE5"
-              description="its an Website of Cloud Services which provide cloud solutions for business and help them to build an profitable business with managing there data effectivey at low budget."
+              description="its an Website of Cloud Services which provide cloud solutions for business and help them to build an profitable business with managing there data effectivey at low budget. I used php for making this website. Thats why its more SEO friendly."
               ghLink="#"
               demoLink="https://cloude5.in/"
             />
