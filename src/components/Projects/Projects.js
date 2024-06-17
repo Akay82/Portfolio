@@ -29,7 +29,7 @@ function Projects() {
               imgPath={cloude5}
               isBlog={false}
               title="CloudE5"
-              description="In this drawing app, users can draw different shapes like rectangles, circles, and triangles in their preferred colors. They can also erase or download their drawing as an image. All these functionalities are done with HTML 5 canvas & vanilla JavaScript, no external framework or library is used."
+              description="its an Website of Cloud Services which provide cloud solutions for business and help them to build an profitable business with managing there data effectivey at low budget."
               ghLink="#"
               demoLink="https://cloude5.in/"
             />
