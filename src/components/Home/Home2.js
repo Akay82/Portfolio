@@ -1,7 +1,9 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Form, Button } from "react-bootstrap";
 import myImg from "../../Assets/avatar3.png";
 import Tilt from "react-parallax-tilt";
+import "./Home.css";
+
 import {
   AiFillGithub,
   AiOutlineTwitter,
@@ -58,6 +60,40 @@ function Home2() {
             </Tilt>
           </Col>
         </Row>
+           
+        <br />
+        <br />
+
+        <Row>
+          <Col md={12}>
+            <h1 className="purple">Contact Me</h1>
+            <Form action="https://formspree.io/f/xdknkkza"
+               method="POST" 
+               className="contact-form">
+
+              <Form.Group controlId="formName">
+                <Form.Label></Form.Label>
+                <Form.Control type="text" name="username" placeholder="Enter your name" />
+              </Form.Group>
+              <Form.Group controlId="formEmail">
+                <Form.Label></Form.Label>
+                <Form.Control type="email" name="email" placeholder="Enter your email" />
+              </Form.Group>
+              <Form.Group controlId="formMessage">
+                <Form.Label></Form.Label>
+                <Form.Control as="textarea" name="message"  rows={3} placeholder="Enter your message" />
+              </Form.Group>
+              <br />
+              <br />
+              <Button className="submit-btn" variant="primary" type="submit">
+                Submit
+              </Button>
+            </Form>
+          </Col>
+        </Row>
+
+
+
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
