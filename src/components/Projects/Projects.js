@@ -53,8 +53,8 @@ function Projects() {
               isBlog={false}
               title="E-commerce Website"
               description="It is a Electronic E-commerce site in which we can choose the products and we can add the products in our cart, this app is made with ReactJS. In this we can select the products and in the cart section we can edit our cart products as we want and there is contact us page is as well.."
-              ghLink="https://github.com/Akay82/E-Commerce-Shop"
-              demoLink="https://ajayk-e-commerce.netlify.app/"
+              ghLink="https://github.com/Akay82/ecommerce"
+              demoLink="https://affinity-store.vercel.app/"
             />
           </Col>
 
