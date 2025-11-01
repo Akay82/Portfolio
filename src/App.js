@@ -28,18 +28,19 @@ function App() {
   }, []);
 
   return (
+    // Routing setup for different pages
     <Router>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
         <ScrollToTop />
-        <Routes>
+        <Routesn>
           <Route path="/" element={<Home />} />
           <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="*" element={<Navigate to="/"/>} />
-        </Routes>
+        </Routesn>
       
       </div>
     </Router>
