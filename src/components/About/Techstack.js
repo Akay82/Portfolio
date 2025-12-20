@@ -12,22 +12,22 @@ import {
   DiBootstrap,
 } from "react-icons/di";
 import {
-  
-  SiMysql,
-  
-  SiExpress,
-  
+  SiDotnet,
+  SiMicrosoftsqlserver,
+  SiAngular,
+  SiMicrosoftsharepoint,
+  SiAndroidstudio,
 } from "react-icons/si";
 
+import { SiMysql, SiExpress } from "react-icons/si";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
       </Col>
-    
+
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
       </Col>
@@ -55,7 +55,25 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiCss3 />
       </Col>
-     
+      <Col xs={4} md={2} className="tech-icons">
+        <SiDotnet />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMicrosoftsqlserver />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAngular />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMicrosoftsharepoint />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAndroidstudio />
+      </Col>
     </Row>
   );
 }
