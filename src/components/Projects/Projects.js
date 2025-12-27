@@ -9,7 +9,7 @@ import login from "../../Assets/Projects/login.png"
 import cloude5 from "../../Assets/Projects/cloude5.png"
 import shop from "../../Assets/Projects/shop.png";
 import todo from "../../Assets/Projects/todo.png";
-
+import blogger from "../../Assets/Projects/blogger.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -36,14 +36,16 @@ function Projects() {
           </Col>
             
             
-          <Col md={4} className="project-card">
+      
+
+               <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={drawing}
+              imgPath={blogger}
               isBlog={false}
-              title="Drawing"
-              description="In this drawing app, users can draw different shapes like rectangles, circles, and triangles in their preferred colors. They can also erase or download their drawing as an image. All these functionalities are done with HTML 5 canvas & vanilla JavaScript, no external framework or library is used."
-              ghLink="https://github.com/Akay82/Drawing"
-              demoLink="https://ajaykdrawing.netlify.app/"
+              title="Automated Blog Creation Project"
+              description=" This is a Login and Register Page in Which we have different fields and these both pages are responsive as well ."
+              ghLink="https://github.com/Akay82/blogger-dashboard"
+              demoLink="https://automated-blogger.netlify.app/"              
             />
           </Col>
 
@@ -71,23 +73,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={text}
+              imgPath={drawing}
               isBlog={false}
-              title="Text-Editor-App"
-              description=" This is a Simple Text Editor Which is made with the help of React, In this application we can write the content and we can bold the text, we can change the color of text, alignment and list items."
-              ghLink="https://github.com/Akay82/Simple-Text-Editor"
-              demoLink="https://text-editor2.netlify.app/"              
-            />
-          </Col>
-
-              <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={login}
-              isBlog={false}
-              title="Login-App"
-              description=" This is a Login and Register Page in Which we have different fields and these both pages are responsive as well ."
-              ghLink="https://github.com/Akay82/Login-system"
-              demoLink="https://login-system-sg96.onrender.com/"              
+              title="Drawing"
+              description="In this drawing app, users can draw different shapes like rectangles, circles, and triangles in their preferred colors. They can also erase or download their drawing as an image. All these functionalities are done with HTML 5 canvas & vanilla JavaScript, no external framework or library is used."
+              ghLink="https://github.com/Akay82/Drawing"
+              demoLink="https://ajaykdrawing.netlify.app/"
             />
           </Col>
 
